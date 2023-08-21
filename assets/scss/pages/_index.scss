@@ -1,0 +1,43 @@
+.text-xs {
+  font-size: 12px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.list-group-item,
+.card-title {
+  padding: 12px !important;
+}
+
+.fill-none {
+  font-variation-settings: "FILL" 0;
+}
+
+.avatar-img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.sidebar {
+  min-width: 296px;
+  min-height: 100vh;
+  padding: 32px;
+  position: fixed;
+}
+
+.sidebar .active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 32px;
+  width: 4px;
+  background-color: rgba(var(--bs-success-rgb));
+  transform: translateY(-4px);
+}
+
+.main {
+  margin-left: 296px;
+}
